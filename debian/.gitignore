@@ -1,0 +1,6 @@
+*~
+/files
+/ruby-build.debhelper.log
+/ruby-build.substvars
+/ruby-build/
+/patches/

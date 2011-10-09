@@ -1,0 +1,20 @@
+Source: ruby-build
+Section: ruby
+Priority: optional
+Maintainer: Sebastian Boehm <sebastian@sometimesfood.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.1
+Homepage: https://github.com/sstephenson/ruby-build
+Vcs-Git: git://github.com/sometimesfood/ruby-build.git
+Vcs-Browser: https://github.com/sometimesfood/ruby-build
+
+Package: ruby-build
+Architecture: all
+Depends: ${misc:Depends}
+Description: tool to compile and install different versions of Ruby
+ ruby-build provides a simple way to compile and install different
+ versions of Ruby.
+ .
+ Combined with rbenv, ruby-build lets you easily install and switch
+ between different implementations of Ruby, such as MRI, JRuby, REE
+ and others.

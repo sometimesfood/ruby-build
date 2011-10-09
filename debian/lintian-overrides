@@ -1,0 +1,3 @@
+ruby-build: new-package-should-close-itp-bug
+ruby-build: binary-without-manpage usr/bin/ruby-build
+ruby-build: binary-without-manpage usr/bin/rbenv-install
